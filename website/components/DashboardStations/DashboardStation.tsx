@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { MapPin } from "lucide-react";
 import BuySection from "@/components/BuySection/BuySection";
@@ -32,11 +33,7 @@ export default function DashboardStation({ selectedCar: car }: DashboardStationP
 
 
     return (
-        <div className="w-[80%] m-8">
-            <div className="w-[100%] flex justify-between pb-6">
-                <p className="text-2xl font-semibold">Stations</p>
-                <w3m-button />
-            </div>
+        <div className="w-[100%]">
             <div className="flex gap-8">
                 <div className="w-[60%]">
                     <div className="w-full max-w-full bg-[#080908] rounded-md border-2 border-[#161d15] h-[60%] 2xl:h-[65%] p-6">

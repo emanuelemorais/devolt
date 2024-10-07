@@ -1,5 +1,5 @@
 "use client";
-
+import dynamic from "next/dynamic";
 import type { NextPage } from "next";
 import "./globals.css";
 import Topbar from "@/components/Topbar/Topbar";
@@ -11,7 +11,6 @@ import SupportSection from "@/components/SupportSection/SupportSection";
 import { AccordionDemo } from "@/components/Faq/Faq";
 import printConsoleASCIIArt from "@/lib/ASCIIart";
 import { useEffect } from "react";
-
 
 
 const Home: NextPage = () => {

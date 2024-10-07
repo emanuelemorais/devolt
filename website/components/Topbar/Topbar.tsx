@@ -46,21 +46,21 @@ export default function Topbar() {
             pathname == "/" ? "text-white" : "text-zinc-600"
           }`}
         >
-          Home
+          <p>Home</p>
         </Link>
         <Link
           href="/"
           onClick={() => scrollToSection("about")}
           className={`transition hover:text-white hover:cursor-pointer text-zinc-600`}
         >
-          About
+          <p>About</p>
         </Link>
         <Link
           href="/"
           onClick={() => scrollToSection("support")}
           className={`transition hover:text-white hover:cursor-pointer text-zinc-600`}
         >
-          Contact
+          <p>Contact</p>
         </Link>
       </div>
       <div className="my-auto">
